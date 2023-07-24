@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_datetime_picker/flutter_datetime_picker.dart' as picker;
+import 'package:flutter_custom_datetime_picker/flutter_datetime_picker.dart'
+    as picker;
 
 void main() => runApp(new MyApp());
 
@@ -130,8 +131,8 @@ class HomePage extends StatelessWidget {
                 )),
             TextButton(
                 onPressed: () {
-                  picker.DatePicker.showTimePicker(context, showTitleActions: true,
-                      onChanged: (date) {
+                  picker.DatePicker.showTimePicker(context,
+                      showTitleActions: true, onChanged: (date) {
                     print('change $date in time zone ' +
                         date.timeZoneOffset.inHours.toString());
                   }, onConfirm: (date) {
@@ -144,8 +145,8 @@ class HomePage extends StatelessWidget {
                 )),
             TextButton(
                 onPressed: () {
-                  picker.DatePicker.showTime12hPicker(context, showTitleActions: true,
-                      onChanged: (date) {
+                  picker.DatePicker.showTime12hPicker(context,
+                      showTitleActions: true, onChanged: (date) {
                     print('change $date in time zone ' +
                         date.timeZoneOffset.inHours.toString());
                   }, onConfirm: (date) {
@@ -174,8 +175,8 @@ class HomePage extends StatelessWidget {
                 )),
             TextButton(
                 onPressed: () {
-                  picker.DatePicker.showDateTimePicker(context, showTitleActions: true,
-                      onChanged: (date) {
+                  picker.DatePicker.showDateTimePicker(context,
+                      showTitleActions: true, onChanged: (date) {
                     print('change $date in time zone ' +
                         date.timeZoneOffset.inHours.toString());
                   }, onConfirm: (date) {
@@ -188,8 +189,8 @@ class HomePage extends StatelessWidget {
                 )),
             TextButton(
                 onPressed: () {
-                  picker.DatePicker.showDateTimePicker(context, showTitleActions: true,
-                      onChanged: (date) {
+                  picker.DatePicker.showDateTimePicker(context,
+                      showTitleActions: true, onChanged: (date) {
                     print('change $date in time zone ' +
                         date.timeZoneOffset.inHours.toString());
                   }, onConfirm: (date) {
@@ -204,8 +205,8 @@ class HomePage extends StatelessWidget {
                 )),
             TextButton(
                 onPressed: () {
-                  picker.DatePicker.showDateTimePicker(context, showTitleActions: true,
-                      onChanged: (date) {
+                  picker.DatePicker.showDateTimePicker(context,
+                      showTitleActions: true, onChanged: (date) {
                     print('change $date in time zone ' +
                         date.timeZoneOffset.inHours.toString());
                   }, onConfirm: (date) {
@@ -220,8 +221,8 @@ class HomePage extends StatelessWidget {
                 )),
             TextButton(
                 onPressed: () {
-                  picker.DatePicker.showDateTimePicker(context, showTitleActions: true,
-                      onChanged: (date) {
+                  picker.DatePicker.showDateTimePicker(context,
+                      showTitleActions: true, onChanged: (date) {
                     print('change $date in time zone ' +
                         date.timeZoneOffset.inHours.toString());
                   }, onConfirm: (date) {

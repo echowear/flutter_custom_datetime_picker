@@ -1,5 +1,5 @@
-import 'package:flutter_datetime_picker/src/date_format.dart';
-import 'package:flutter_datetime_picker/src/i18n_model.dart';
+import 'package:flutter_custom_datetime_picker/src/date_format.dart';
+import 'package:flutter_custom_datetime_picker/src/i18n_model.dart';
 import 'datetime_util.dart';
 import 'dart:math';
 
@@ -377,7 +377,9 @@ class TimePickerModel extends CommonPickerModel {
   bool showSecondsColumn;
 
   TimePickerModel(
-      {DateTime? currentTime, LocaleType? locale, this.showSecondsColumn = true})
+      {DateTime? currentTime,
+      LocaleType? locale,
+      this.showSecondsColumn = true})
       : super(locale: locale) {
     this.currentTime = currentTime ?? DateTime.now();
 
